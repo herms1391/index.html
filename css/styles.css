@@ -28,3 +28,10 @@ header h2 {
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
+
+.modal-header {
+  background-color: #17a2b8; }
+  .modal-header.login {
+    background-color: #901CAD; }
+  .modal-header h3 {
+    color: white; }

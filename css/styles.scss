@@ -4,7 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-
+$color-teal: #17a2b8;
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
 body {
@@ -46,4 +46,17 @@ header {
 
 .carousel-caption {
     background-color: $color-black-transparent;
+}
+.modal-header {
+    &.login{
+        background-color: $color-mid;
+    }
+  background-color: $color-teal;
+    
+    
+
+    h3 {
+        color: white;
+    }
+   
 }
